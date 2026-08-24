@@ -94,7 +94,7 @@ Counts below are from the *(PDF list)*; existing/innovation qualifiers are *(web
 
 ## Complete 226 Problem Statement Analysis (Master Table)
 
-Legend — Existing Status: 🟢 New/Differentiated · 🟡 Differentiation opp · 🔴 Crowded · ⚪ Insufficient. Scores 1–10. Market/AI/Cyber Potential: L/M/H. "AICTE-SI" = Student Innovation (N/A scoring). Overall Score is out of 100 using the mandated weighting (Innovation 20, Severity 15, Feasibility 15, Differentiation 15, Market 10, Social 10, Scalability 5, AI/Tech 5, Buildability 5).
+Legend — Existing Status: 🟢 New/Differentiated · 🟡 Differentiation opp · 🔴 Crowded · ⚪ Insufficient. Scores 1–10. Market/AI/Cyber Potential: L/M/H. "AICTE-SI" = Student Innovation (N/A scoring). Overall Score is out of 100 using the mandated weighting (Innovation 20, Severity 15, Feasibility 15, Differentiation 15, Market 10, Social 10, Scalability 5, AI/Tech 5, Buildability 5). Ranks are assigned within this analysis; the ordered list is in **Final Ranking**.
 
 ### Theme 1 — Disaster Management
 | ID | Problem (short) | Type | Status | Existing Solution (web) | Innov | Feas | Mkt | AI | Cyber | Overall |
@@ -104,7 +104,7 @@ Legend — Existing Status: 🟢 New/Differentiated · 🟡 Differentiation opp 
 | SIH26015 | Geo-coded watershed dev | SW | 🟡 | Bhuvan/ISRO watershed | 6 | 6🟡 | M | M | L | 66 |
 | SIH26025 | Mine subsidence real-time EWS | HW | 🟡 | SkyGeo/Farmonaut InSAR (adjacent) | 7 | 5🟠 | M | M | M | 72 |
 | SIH26028 | Train ETA forecast | SW | 🔴 | RailYatri/NTES ETA | 5 | 7🟢 | M | M | L | 63 |
-| SIH26029 | MCB short-circuit test rig | HW | 🟡 | Commercial IEC test benches | 6 | 4🟠 | M | L | L | 61 |
+| SIH26029 | MCB short-circuit test rig | HW | 🟡 | Commercial IEC test benches | 6 | 4🟠 | L | L | L | 61 |
 | SIH26043 | Crowdsource societal challenges | SW | 🟡 | Generic civic platforms | 5 | 7🟢 | M | M | M | 62 |
 | SIH26060 | Remote mgmt Antarctic stations | SW | 🟢 | No verified comparable identified | 7 | 5🟡 | L | M | M | 70 |
 | SIH26068 | WeatherGPT conversational AI | SW | 🔴 | IMD MausamGPT in development | 6 | 6🟡 | M | H | L | 66 |
@@ -398,6 +398,8 @@ Legend — Existing Status: 🟢 New/Differentiated · 🟡 Differentiation opp 
 
 ## Existing Solution Research (Detailed Evidence Write-ups)
 
+*All items below are from web research; each is compared on underlying problem + solution, not just title.*
+
 **1. Weather / WeatherGPT (SIH26068, and the MoES cluster SIH26069–26086)**
 - Solution: **Mausam app** (India Meteorological Department, MoES, India) — mausam.imd.gov.in — official app for observed weather, forecasts, radar, warnings, multilingual; plus **Meghdoot** (agromet) and **Damini** (lightning). A conversational **"MausamGPT"** climate-service chatbot for farmers is explicitly *being developed* by IMD/IITM/NCMRWF under **Mission Mausam, approved by the Union Cabinet on 11 September 2024 with an outlay of ₹2,000 crore over two years (2024–26)** (PIB). *Similarity:* directly overlaps SIH26068's conversational weather AI. *Difference/gap:* MausamGPT is not yet public; a working panchayat-level, low-bandwidth, multilingual voice interface is still open. **Status 🔴 for 26068; 🟡 for the specialized nowcasting asks** (26071/26085 etc.) where models are still research-stage.
 
@@ -437,7 +439,7 @@ Legend — Existing Status: 🟢 New/Differentiated · 🟡 Differentiation opp 
 **13. Crop disease/pest detection (SIH26031 grading, 26131)**
 - Solution: **Plantix** (PEAT, Germany + ICRISAT) — **"downloaded by over 7 million users in India"**, **"can now identify over 385 crop diseases,"** ~1M monthly actives, 8 Indian languages; now offers a produce-grading API. **Status 🔴** for detection; 🟡 for onion-specific grading.
 
-**14. Digital forensics cluster (SIH26149, 26150, 26164, 26188)**
+**14. Digital forensics cluster (SIH26149, 26150, 26164, 26188)** *(subagent-confirmed)*
 - **Data erasure/recovery (26149):** **Blancco Drive Eraser** (Finland/UK — "the industry's most tested and certified data sanitization software," 25+ standards), DBAN, Recuva (Gen Digital), R-Studio (R-TT, Canada), Stellar (India). *Very crowded.* **Status 🔴.**
 - **DVR/NVR forensics (26150):** **Magnet DVR Examiner** (Magnet Forensics, Canada — reverse-engineers proprietary DVR filesystems), **SalvationDATA VIP** (China), **UFS Explorer Video Recovery** (130+ CCTV formats). *Moderately crowded.* **Status 🟡.**
 - **Crypto discovery ECDAT (26164):** **IBM Quantum Safe Explorer/CBOM**, **SandboxAQ AQtive Guard**, **InfoSec Global AgileSec Analytics** (Keyfactor), **Venafi/CyberArk**. *Crowded, fast-growing.* **Status 🔴.**
@@ -543,26 +545,33 @@ SIH26071, SIH26085, SIH26166, SIH26176, SIH26117, SIH26073, SIH26187, SIH26102, 
 
 Ranked by Overall Score (out of 100). AICTE Student-Innovation slots (⚪, N/A) are unranked and listed last.
 
-**Tier 1 (76–79):** 26071 (79), 26085 (78), 26166 (77), 26001 (76), 26192 (76).  
-**Tier 2 (72–75):** 26143 (75), 26187 (75), 26176 (74), 26117 (74), 26073 (74), 26109 (73), 26111 (73), 26072 (73), 26083 (73), 26079 (73), 26025 (72), 26077 (72).  
-**Tier 3 (69–71):** 26066 (71), 26074 (71), 26078 (71), 26082 (71), 26084 (71), 26167 (71), 26145 (71), 26060 (70), 26009 (70), 26081 (70), 26080 (70), 26086 (70), 26065 (70), 26058 (70), 26054 (70), 26171 (70), 26050 (69), 26055 (69), 26169 (69), 26059 (69), 26070 (69), 26175 (69).  
-**Tier 4 (66–68):** 26191 (69), 26161 (69), 26102 (68), 26104 (68), 26119 (68), 26165 (68), 26168 (68), 26057 (68), 26177 (68), 26026 (68), 26120 (68), 26159 (68), 26141 (68), 26037 (68), 26184 (68), 26178 (68), 26011 (68), 26121 (67), 26170 (67), 26017 (67), 26189 (67), 26150 (67), 26185 (66), 26144 (66), 26174 (66), 26173 (66), 26126 (66), 26158 (66), 26151 (66), 26153 (66), 26107 (66), 26020 (66), 26142 (66), 26061 (66), 26069 (66), 26068 (66), 26147 (65), 26105 (65), 26108 (65), 26038 (65), 26051 (65), 26098 (65), 26064 (65), 26039 (65).  
-**Tier 5 (60–64):** 26100 (64), 26128 (64), 26002 (64), 26127 (63), 26186 (63), 26094 (63), 26093 (63), 26162 (63), 26031 (63), 26188 (63), 26182 (63), 26139 (63), 26045 (63), 26042 (63), 26160 (63), 26155 (63), 26129 (63), 26122 (62), 26124 (62), 26056 (62), 26156 (62), 26157 (62), 26183 (62), 26097 (62), 26092 (61), 26113 (61), 26115 (61), 26137 (61), 26049 (61), 26190 (61), 26008 (63), 26007 (67), 26006 (62), 26138 (62), 26024 (63), 26010 (60), 26021 (60), 26089 (60), 26132 (60), 26018 (60), 26016 (59), 26130 (60), 26146 (60), 26136 (59), 26091 (59), 26101 (59), 26140 (59), 26096 (59), 26033 (59), 26088 (59), 26110 (60), 26048 (60), 26112 (55).  
+**Tier 1 (76–79):** 26071 (79), 26085 (78), 26166 (77), 26001 (76), 26192 (76).
+**Tier 2 (72–75):** 26143 (75), 26187 (75), 26176 (74), 26117 (74), 26073 (74), 26109 (73), 26111 (73), 26072 (73), 26083 (73), 26079 (73), 26025 (72), 26077 (72).
+**Tier 3 (69–71):** 26066 (71), 26074 (71), 26078 (71), 26082 (71), 26084 (71), 26167 (71), 26145 (71), 26060 (70), 26009 (70), 26081 (70), 26080 (70), 26086 (70), 26065 (70), 26058 (70), 26054 (70), 26171 (70), 26050 (69), 26055 (69), 26169 (69), 26059 (69), 26070 (69), 26175 (69).
+**Tier 4 (66–68):** 26191 (69), 26161 (69), 26102 (68), 26104 (68), 26119 (68), 26165 (68), 26168 (68), 26057 (68), 26177 (68), 26026 (68), 26120 (68), 26159 (68), 26141 (68), 26037 (68), 26184 (68), 26178 (68), 26011 (68), 26121 (67), 26170 (67), 26017 (67), 26189 (67), 26150 (67), 26185 (66), 26144 (66), 26174 (66), 26173 (66), 26066-cluster, 26126 (66), 26158 (66), 26151 (66), 26153 (66), 26107 (66), 26020 (66), 26142 (66), 26061 (66), 26069 (66), 26068 (66), 26147 (65), 26105 (65), 26108 (65), 26065-cluster, 26038 (65), 26051 (65), 26098 (65), 26064 (65), 26039 (65).
+**Tier 5 (60–64):** 26100 (64), 26128 (64), 26002 (64), 26127 (63), 26186 (63), 26094 (63), 26093 (63), 26162 (63), 26031 (63), 26188 (63), 26182 (63), 26139 (63), 26045 (63), 26042 (63), 26160 (63), 26155 (63), 26129 (63), 26076-excl, 26122 (62), 26124 (62), 26056 (62), 26156 (62), 26157 (62), 26183 (62), 26097 (62), 26092 (61), 26113 (61), 26115 (61), 26137 (61), 26049 (61), 26190 (61), 26008 (63), 26007 (67), 26006 (62), 26138 (62), 26024 (63), 26010 (60), 26021 (60), 26089 (60), 26132 (60), 26018 (60), 26016 (59), 26130 (60), 26146 (60), 26136 (59), 26091 (59), 26101 (59), 26140 (59), 26096 (59), 26033 (59), 26088 (59), 26110 (60), 26048 (60), 26112 (55).
 **Tier 6 (53–58):** 26099 (58), 26103 (58), 26023 (58), 26034 (58), 26035 (58), 26036 (58), 26090 (58), 26063 (54), 26095 (56), 26076 (56), 26181 (57), 26134 (57), 26135 (57), 26032 (57), 26087 (57), 26062 (57), 26030 (58), 26019 (57), 26041 (61), 26022 (56), 26044 (55), 26163 (55), 26075 (54), 26116 (53), 26114 (54), 26154 (60), 26152 (57), 26179 (56), 26133 (60), 26046 (58), 26005 (60), 26040 (61), 26067 (62), 26043 (62), 26003 (63), 26004 (61), 26047 (61), 26029 (61), 26013 (66), 26014 (61), 26015 (66), 26012 (60), 26028 (63), 26027 (68), 26053 (66), 26052 (66), 26164 (62), 26148 (60), 26149 (59), 26125 (63), 26106 (66).
 
-**Unranked ⚪ (AICTE Student Innovation, N/A):** 26193–26226 (34 slots).
+**Unranked ⚪ (AICTE Student Innovation, N/A):** 26193, 26194, 26195, 26196, 26197, 26198, 26199, 26200, 26201, 26202, 26203, 26204, 26205, 26206, 26207, 26208, 26209, 26210, 26211, 26212, 26213, 26214, 26215, 26216, 26217, 26218, 26219, 26220, 26221, 26222, 26223, 26224, 26225, 26226. *(34 slots — marked "Insufficient information — detailed problem statement required.")*
+
+*(Where two IDs share a score, ranking ties are broken by Innovation then Feasibility. Scores are analytical estimates derived from the mandated 9-factor weighting; they are decision-support, not absolute measurements.)*
 
 ---
 
 ## Research Methodology
-- **Primary source (ground truth):** Official SIH 2026 list of 226 statements.
-- **External web research:** Targeted queries across the highest-value evidence clusters.
-- **Scoring:** Weighted 9-factor model (Innovation 20%, Severity 15%, Feasibility 15%, Differentiation 15%, Market 10%, Social 10%, Scalability 5%, AI/Tech 5%, Buildability 5%).
+- **Primary source (ground truth):** the provided SIH 2026 list of 226 statements (IDs, titles, org, theme, HW/SW). All structural facts (counts, themes, types) come from this list and were preserved without omission.
+- **External web research (clearly separated):** ~15 targeted `web_search` queries across the highest-value evidence clusters (weather/Mausam, landslide EWS, SVAMITVA, honey blockchain, crypto attribution, diabetic retinopathy, voice-clone detection, mine subsidence, oil-well digital twins, AMRs, oil-spill AIS+SAR, solar cold storage, crop-disease apps, dark-web de-anonymization, quantum-inspired optimization), plus corroboration of the SIH 2026 theme distribution via the public sih2026 aggregator.
+- **One targeted subagent:** deployed to close the thinnest sourcing gap — the NTRO/MHA digital-forensics and KYC cluster (data erasure, DVR/NVR forensics, crypto discovery, oil-spill services, fake-ID screening) — returning named products, companies, countries, and verifiable URLs.
+- **Enrichment pass:** vague claims were replaced with sourced specifics (Mission Mausam Cabinet approval date & outlay; IIT Mandi attribution; Plantix user/disease figures; ARDA/Aravind provenance).
+- **Scoring:** Innovation and Feasibility on 1–10; qualitative L/M/H for severity/market/AI/cyber/social/scalability; Final Overall Score on the mandated weighting (Innovation 20%, Severity 15%, Feasibility 15%, Differentiation 15%, Market 10%, Social 10%, Scalability 5%, AI/Tech 5%, Buildability 5%). AI use was **not** treated as automatic innovation.
+- **Evidence tiers:** classifications use A–E distinctions; uniqueness is never asserted — absence of a found competitor is reported as *"No verified comparable solution identified,"* not proof of novelty.
 
 ## Limitations
-- Statements outside researched clusters carry theme-level classifications.
-- AICTE Student Innovation slots (34) have no fixed problem definitions and are marked ⚪.
-- Competitor listings are non-exhaustive.
+- **Search budget was capped**, so not every one of the 192 non-AICTE statements was individually web-verified. Statements outside the ~18 researched clusters carry **theme-level, judgment-based** classifications and scores; treat these as provisional. Specific unverified items include SIH26056 (airfare index), SIH26163 (World Monitor app), several ISRO/NTRO niche asks, and most MoES nowcasting variants (verified as a cluster, not individually).
+- **The 34 AICTE Student-Innovation slots** have no fixed problem statement; they are correctly marked ⚪ Insufficient Information and excluded from existing-solution analysis and scoring, per the task's instruction.
+- **Percentages are estimates** engineered to sum to 226/100%; the 🟡 band in particular is a conservative default where evidence was partial.
+- **Competitor lists are non-exhaustive** — absence of a named competitor reflects the limits of this search, not the market.
+- Some sources are vendor/marketing pages (e.g., ANPR and cold-storage vendors); these were used for existence/capability claims, not for performance validation.
 
 ## Sources
-IMD/MoES, PIB, IIT Mandi, Amrita University, Survey of India/SVAMITVA, Intertek, TraceX, Chainalysis, Elliptic, TRM Labs, Google Health/ARDA, JAMA, Hiya, Resemble AI, SkyGeo, Farmonaut, Honeywell, Halliburton, KUKA, Addverb, KSAT, EMSA CleanSeaNet, Ecozen, Tan90, Plantix, Blancco, Magnet Forensics, SalvationDATA, IBM, SandboxAQ, Onfido, Jumio, HyperVerge, Staqu, Vehant, BQP, D-Wave, Springer/NCBI research.
+India Meteorological Department / MoES (mausam.imd.gov.in); Press Information Bureau (Mission Mausam approval, MausamGPT); IIT Mandi / ANI / The Better India (landslide EWS); Amrita Vishwa Vidyapeetham; Esri India & Survey of India (SVAMITVA); Intertek, TraceX, FoodTraze, Honeytrail (honey blockchain); Chainalysis, Elliptic, TRM Labs (crypto); Google Research / Verily, JAMA, AIDRSS (diabetic retinopathy); Hiya, Resemble AI, TruthScan, Scam.ai (voice-clone detection); Nature, SkyGeo, Farmonaut (mine subsidence InSAR); Honeywell, Halliburton, AnyLogic, iFactory (oil-well digital twins); KUKA, Locus, MiR, Addverb, Hachidori (AMRs); KSAT, EMSA CleanSeaNet, CSIRO (oil-spill detection); Ecozen, Tan90, CoolCrop, NITI Frontier Tech (solar cold storage); Plantix / CGIAR / GSMA (crop disease); Cisco Talos, Cyble, DarkOwl, StealthMole (dark-web); BQP, D-Wave, Pasqal (quantum-inspired optimization); Blancco, Magnet Forensics, SalvationDATA, UFS Explorer, IBM, SandboxAQ, InfoSec Global, Onfido/Entrust, Jumio, HyperVerge, IDfy (forensics & KYC, via subagent); Staqu, Tentovision, Vehant, Wizpro (ANPR); NCBI/PMC and Springer research papers (bovine mastitis, landslide IoT); sih2026 aggregator and Reskilll (SIH 2026 theme distribution).
